@@ -6,7 +6,7 @@ while True:
         break
     except ValueError as e:
         print(f"Ongeldige invoer: {e}. Probeer opnieuw.")
-kilometervergoeding = 0.23 # vergoeding in 2024
+kilometervergoeding = 0.23 # vergoeding in 2025
 
 def kilometervergoeding_berekenen(zakelijke_kilometers,kilometervergoeding):
     """ Het berekenen van je gereden zakelijke kilometers met je prive auto van het afgelopen boekjaar"""
